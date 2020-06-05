@@ -23,7 +23,8 @@ export const useBlaze = (WrappedComponent) => {
         }
 
         render() {
-            return <WrappedComponent onChange={e=>{this.onChange(e);}} value={this.getVal()} {...this.props}></WrappedComponent>
+            return React.createElement(WrappedComponent, {onChange: e=>{this.onChange(e);} ,value:this.getVal() , ...this.props}, null);
+            //return <WrappedComponent onChange={e=>{this.onChange(e);}} value={this.getVal()} {...this.props} />
         }
     }
 }

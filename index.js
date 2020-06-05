@@ -1,3 +1,3 @@
-exports.SmartComponent=require("./dist/SmartComponent");
+exports.BlazeComponent=require("./dist/BlazeComponent").default;
 
-exports.Smart=require("./src/SmartReact");
+exports.Blaze=require("./src/BlazeReact");
