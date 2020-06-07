@@ -1,8 +1,13 @@
 {
   "name": "blazereact",
-  "version": "1.0.6",
+  "version": "1.0.10",
   "description": "",
   "main": "index.js",
+  "files": [ "dist", "README.md" ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lenshang/BlazeReact.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +16,9 @@
   "license": "ISC",
   "dependencies": {
     "@types/react": "^16.9.35",
-    "react": "^16.13.1",
     "typescript": "^3.9.5"
+  },
+  "peerDependencies":{
+    "react": "^16.13.1"
   }
 }

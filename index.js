@@ -1,3 +1,8 @@
-exports.BlazeComponent=require("./dist/BlazeComponent").default;
+import BlazeComponent from './dist/BlazeComponent';
 
-exports.Blaze=require("./src/BlazeReact");
+import {useBlaze} from './dist/BlazeReact';
+
+export{
+    BlazeComponent,
+    useBlaze
+}
