@@ -1,4 +1,3 @@
-# BlazeReact
 <h1 align="center">BlazeReact</h1>
 <div align="center">
     Use React.js More convenient
