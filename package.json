@@ -1,6 +1,6 @@
 {
   "name": "blazereact",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "",
   "main": "dist/index.js",
   "files": [
@@ -17,7 +17,7 @@
   "keywords": [],
   "author": "LenShang",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@types/react": "^16.9.35",
     "typescript": "^3.9.5"
   },
